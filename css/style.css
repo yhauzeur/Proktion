@@ -1,0 +1,108 @@
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+#Social1	{
+	background-color: #5992bd;
+	height: auto;
+}
+
+#proktionBar	{
+	background-color: #286090;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	color: #fff;
+}
+
+#logoProktion	{
+	max-height: 60px;
+	padding-top: 3px;
+	margin-bottom: -20px;
+}
+
+#SaludOcc	{
+	font-size: 1.5rem;
+	padding-bottom: 10px;
+}
+
+#social	{
+	margin-top: 15px;
+	text-align: center;
+}
+
+#BackgroundOffice	{
+	background-image:url("../images/pexels-photo-135013.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 550px;
+	width: 100%;
+}
+
+#Quienes1, #Quienes2, #Quienes3, #Quienes4	{
+	min-height: 350px;
+	color: #fff;
+}
+
+#Quienes1	{
+	background-image:url("../images/pexels-photo-111112.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#Quienes2	{
+	background-image:url("../images/space-desk-office-hero-7065.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#Quienes3	{
+	background-image:url("../images/people-woman-coffee-meeting.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax {
+    /* The image used */
+    background-image:url("../images/pexels-photo-29642.jpg");
+    color: #fff;
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+        background-size: cover;
+    }
+}
+
+.fixed	{
+	position: fixed !important;
+	bottom: 0 !important;
+	z-index: 50 !important;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.8);
+	margin-bottom: auto;
+}
+
+#Logos_Empresas	{
+	height: 80px;
+	width: auto;
+}
+
+#Mis_Empresas	{
+	margin-top: 1	0px;
+}

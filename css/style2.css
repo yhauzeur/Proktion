@@ -1,0 +1,134 @@
+	/*background-color: rgba(76, 136, 197, 1);*/
+	/*color: #4c88c5;*/
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+.header-top	{
+	height: auto;
+	width: 100%;
+	background-color: rgba(76, 136, 197, 1);
+	box-shadow: 0px 1px 8px #1B3045;
+}
+
+.fixed-top	{
+	position: fixed !important;
+	top: 0 !important;
+	z-index: 50 !important;
+	width: 100%;
+	margin-top: auto;
+}
+
+.header-bg	{
+	background-image: url(../images/header-chica.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+}
+
+#titulo-ptoktion	{
+	font-family: 'Anton', sans-serif;
+	font-size: 40px;
+	height: auto;
+	padding-top: 15%;
+	padding-left: 5%;
+}
+
+#descripcion-titulo-proktion	{
+	/*font-family: 'Shadows Into Light', cursive;*/
+	font-size: 16px;
+	text-align: left;
+	padding-left: 5%;
+}
+
+#proktion-logo	{
+	max-height: 50px;
+}
+
+.fixed-bottom	{
+	position: fixed !important;
+	bottom: 0 !important;
+	z-index: 51 !important;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+#actividades-de-prevencion, #beneficios-para-la-empresa, #asesoria-y-asistencia	{
+	min-height: 400px;
+	color: #fff;
+}
+
+#actividades-de-prevencion	{
+	background-image:url("../images/pexels-photo-111112.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#beneficios-para-la-empresa	{
+	background-image:url("../images/space-desk-office-hero-7065.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#asesoria-y-asistencia	{
+	background-image:url("../images/people-woman-coffee-meeting.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#Empresas_trabajamos	{
+	max-width: 120px;
+	display: block;
+	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.Paleta	{
+	background-image:url("../images/blueHospital.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+}
+
+
+.fixed	{
+	position: fixed !important;
+	bottom: 0 !important;
+	z-index: 50 !important;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.8);
+	margin-bottom: auto;
+}
+
+#parallax-text-center	{
+	text-align: center;
+	color: #fff;
+	margin-top: 10%;
+}
+
+#asistencia	{
+	margin-top: 5%;
+	text-align: center;
+	color: #fff;
+}
+
+.footer	{
+	background-color: rgba(76, 136, 197, 1);
+	min-height: 200px;
+	height: auto;
+	color: #fff;
+}
+
+.footer2	{
+	margin: 0 auto;
+	width:100%;
+	position: relative;
+}
